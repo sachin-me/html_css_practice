@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+.layer2 {
+    height: 350px;
+    width: 300px;
+    border: 20px solid;
+    border-top-color: blue;
+    border-bottom-color: yellow;
+    border-right-color: darkgray;
+    border-left-color: black;
+    background-color: red;
+    display: inline-flex;
+    color: #fff;
+}
+.layer1{
+    box-sizing: border-box;
+    border: 20px solid blueviolet;
+    display: inline-block;
+}
