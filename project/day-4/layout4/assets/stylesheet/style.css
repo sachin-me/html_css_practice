@@ -12,8 +12,9 @@ body {
     background-color: red;
     display: inline-flex;
     color: #fff;
+    padding: 5px;
 }
-.layer1{
+.layer1 {
     box-sizing: border-box;
     border: 20px solid blueviolet;
     display: inline-block;

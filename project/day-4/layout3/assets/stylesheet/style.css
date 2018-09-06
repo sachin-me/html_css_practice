@@ -1,6 +1,3 @@
-
-
-
 .box {
     border: 1px solid;
     height: 120px;
@@ -12,43 +9,41 @@
 
 
 .box1 {
-    width: 220px;
     background: #e93f21b9;
 }
 .box2 {
-    width: 140px;
     background: rgba(9, 139, 5, 0.87);
 }
 .box3 {
-    width: 140px;
     background: rgb(155, 84, 223);
 }
 .box4 {
-    width: 140px;
     background: rgb(55, 166, 240);
 }
 .box5 {
-    width: 220px;
     background: #0fa868ec;
 }
 .box6 {
-    width: 140px;
     background: #28db10ec
 }
 .box7 {
-    width: 140px;
     background: #dfee0dec;
 }
 .box8 {
-    width: 140px;
     background: #e9810aec;
 }
 .box9 {
-    width: 220px;
     background: #da1111cb;
 }
 
 .container {
     width: 50%;
     margin: 0 auto;
+}
+
+.small-box {
+    width: 140px;
+}
+.big-box {
+    width: 220px;
 }
