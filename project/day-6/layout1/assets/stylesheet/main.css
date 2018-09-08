@@ -1,0 +1,112 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+section {
+    margin: 30px 0px;
+}
+
+/*
+---------------------
+hr starts
+---------------------
+*/
+
+hr {
+    width: 90%;
+}
+.hr1 {
+    margin-top: 20px;
+}
+.hr2 {
+    margin-top: 60px;
+}
+.hr3 {
+    margin-top: 70px;
+}
+.hr4 {
+    margin-top: 100px;
+}
+/*
+---------------------
+hr starts
+---------------------
+*/
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: 5px 10px 0px 5px;
+}
+.image1 {
+    display: inline-block;
+}
+.image2 {
+    float: left;
+}
+.image3 {
+    float: right;
+}
+.box-model {
+    border: 5px solid red
+}
+.boxes {
+    border: 15px solid rgb(175, 175, 25);
+}
+.box {
+    border: none;
+    height: 100px;
+    background: pink;
+}
+.img {
+    margin: 0;
+}
+.box1 {
+    height: 0px;
+}
+.image4 {
+    float: left;
+}
+.no-float {
+    height: 60px;
+    border: none;
+    background: skyblue;
+    margin: 0px 0px 5px 0px;
+}
+.hr {
+    margin-top: 260px;
+}
+.small-box {
+    height: 100px;
+    width: 100px;
+    background: skyblue;
+    float: left;
+    margin: 5px;
+}
+.small {
+    clear: both;
+}
+.box2 {
+    height: 215px;
+}
+.small2 {
+    margin: 0px 5px 5px 0px;
+}
+
+/*
+---------------------
+ClearFix
+---------------------
+*/
+
+.box3:before, .box3:after {
+	content: " ";
+	display: table;
+} 
+.box3:after {
+	clear: both;
+}
+.box3 {
+	clear: both;
+	*zoom: 1;
+}
