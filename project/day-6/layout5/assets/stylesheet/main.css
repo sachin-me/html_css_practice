@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+nav {
+    height: 38px;
+    background: skyblue;
+    position: fixed;
+    top: 0px;
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+}
+.nav-link {
+    text-decoration: none;
+    margin: 137px;
+    font-size: 19px;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.des {
+    color: red;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.image-div {
+    display: inline-block;
+    margin: 30px 118px;
+}
+main {
+    text-align: center;
+}

@@ -1,11 +1,13 @@
-body {
+.container {
     width: 80%;
     margin: 0 auto;
 }
 section {
     margin: 30px 0px;
 }
-
+p {
+    display: inline;
+}
 /*
 ---------------------
 hr starts
@@ -36,7 +38,7 @@ hr starts
 img {
     height: 100px;
     width: 100px;
-    margin: 5px 10px 0px 5px;
+    margin: 0px 5px;
 }
 .image1 {
     display: inline-block;
@@ -91,6 +93,9 @@ img {
 }
 .small2 {
     margin: 0px 5px 5px 0px;
+}
+.p {
+    display: inline-block;
 }
 
 /*

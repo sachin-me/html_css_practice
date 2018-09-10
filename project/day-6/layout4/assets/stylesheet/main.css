@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+.pink {
+    background: pink;
+    float: left;
+    width: 50%;
+    position: fixed;
+}
+.skyblue {
+    background: skyblue;
+    float: right;
+    width: 50%;
+}
+p {
+    padding: 10px;
+}

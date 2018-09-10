@@ -1,0 +1,59 @@
+body {
+    background: rgba(0,0,0,0.2);
+    margin: 0;
+}
+.container {
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    background: #fff;
+    overflow: auto;
+}
+.float-left {
+    width: 46%;
+    border: 1px solid green;
+    border-radius: 5px;
+    background: lightgreen;
+    vertical-align: top;
+    float: left;
+    margin-bottom: 10px;
+}
+.inline-block {
+    width: 46%;
+    border: 1px solid red;
+    border-radius: 5px;
+    display: inline-block;
+    background: pink;
+    vertical-align: top;
+}
+code {
+    background: #fff;
+    border: 1px solid;
+    padding: 1px 6px;
+}
+.code1 {
+    background: #fff;
+}
+.width-fifty {
+    margin: 0px 0px 15px 0px;
+    width: 50%;
+    border: 1px solid red;
+    background: pink;
+    display: inline-block;
+    border-radius: 5px;
+    vertical-align: top;
+}
+.viewport {
+    border: 1px solid green;
+    border-radius: 5px;
+    background: lightgreen;
+    vertical-align: top;
+    width: 49%;
+    float: left;
+}
+section {
+    margin-bottom: 10px;
+}
+p {
+    padding: 5px;
+}
