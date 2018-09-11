@@ -1,0 +1,24 @@
+@media screen and (max-width: 900px) {
+    .nav-item {
+        display: inline-block;
+        width: auto;
+        border-bottom: 1px solid #bababa;
+        margin: 0;
+    }
+    .navbar {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 553px) {
+    .first-section, .second-section, .third-section, .primary-content {
+        width: 100%;
+    }
+    .side-item {
+        display: none;
+    }
+    .side-item-skyblue {
+        display: block;
+        width: 100%;
+    }
+}

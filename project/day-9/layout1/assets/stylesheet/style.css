@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+/*
+  Header
+*/
+
+.header {
+    background: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    padding: 30px 40px;
+}
+
+.heading {
+    margin: 0 6%;
+}
+
+/*
+  Navbar
+*/
+
+.navbar {
+    background: #d4d4d4;
+    padding: 15px 125px;
+}
+.nav-item {
+    color: #000;
+    margin: 10px;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-right: 1px solid #bababa;
+}
+
+/*
+    Main
+*/
+
+.main {
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* .first-mobile {
+    margin: 0 auto;
+    width: 100%;
+} */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2, p {
+    padding: 0px 40px;
+}
+
+.first-section {
+    width: 33%;
+    float: left;
+}
+
+.second-section {
+    width: 33%;
+    float: left;
+}
+
+.third-section {
+    float: left;
+    width: 33%;
+}
+
+/*
+    Primary Content
+*/
+
+.primary-content {
+    float: left;
+    width: 60%;
+}
+
+/*
+    Side Section
+*/
+
+.side-item {
+    float: right;
+    width: 30%;
+    margin: 5px 0px;
+    background: #efdb7f;
+}
+.side-item-skyblue {
+    background: skyblue;
+}
+
+/*
+    Footer
+*/
+
+footer {
+    text-align: center;
+    clear: both;
+    background: #444;
+    color: #fff;
+    padding: 30px;
+    margin: 0;
+}

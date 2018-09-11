@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: darkgrey;
+}
+main {
+    padding: 20px 0px;
+}
+.heading {
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+    background: #fff;
+    padding: 20px; 
+    overflow: auto; 
+}
+.container-heading {
+    font-size: 24px;
+    color: #444;
+}
+.list-section {
+    float: left;
+    width: 25%;
+}
+.navbar {
+    box-sizing: border-box;
+    margin: 20px 0px;
+}
+.nav-item {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    color: #777;
+}
+img {
+    width: 100%;
+}
+.middle {
+    width: 50%;
+}
+.para {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444;
+}
+.para-move {
+    margin: 0px 0px 10px 30px;
+}
+.last-section {
+    float: right;
+    width: 25%;
+}
+.list-section, .middle, .last-section {
+    display: inline-block;
+}
+.aside-text {
+    font-size: 20px;
+    color: #777;
+}
