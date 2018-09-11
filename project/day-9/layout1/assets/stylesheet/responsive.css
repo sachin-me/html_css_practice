@@ -3,14 +3,14 @@
         display: inline-block;
         width: auto;
         border-bottom: 1px solid #bababa;
-        margin: 0;
+        margin: 0px -2px;
     }
     .navbar {
         padding: 0;
     }
 }
 
-@media screen and (max-width: 553px) {
+@media screen and (max-width: 620px) {
     .first-section, .second-section, .third-section, .primary-content {
         width: 100%;
     }
@@ -20,5 +20,26 @@
     .side-item-skyblue {
         display: block;
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 621px) and (max-width: 760px) {
+    .first-section, .second-section{
+        width: 50%;
+    }
+    .third-section, .primary-content {
+        width: 100%;
+    }
+    .side-item {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1170px) {
+    .navbar {
+        padding: 15px 90px;
+    }
+    .nav-item {
+        margin: 0;
     }
 }
