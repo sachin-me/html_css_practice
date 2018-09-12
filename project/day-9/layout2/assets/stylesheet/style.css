@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+/*
+    container
+*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*
+    Grid
+*/
+
+/* .col-lg-6 {
+    width: 50%;
+} */
+
+/*
+    Header
+*/
+
+.heading {
+    display: inline-block;
+    margin: 0;
+}
+.outer-div {
+    margin-top: 10px;
+    background: skyblue;
+}
+.outer-link {
+    display: inline-block;
+    color: #222;
+    margin: 20px;
+    padding: 0 350px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0px;
+}
+
+/*
+    Navbar
+*/
+
+.navbar {
+    float: right;
+    margin-top: 3em;
+    margin-left: 39em;
+}
+.nav-item {
+    color: #777;
+    margin: 7px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*
+    image
+*/
+
+.image-box {
+    margin: 0;
+}
+.image {
+    width: 100%;
+    height: auto;
+}
+
+/*
+    section
+*/
+
+.section {
+    margin: 10px 0;
+}
+.main-section {
+    width: 67%;
+    display: inline-block;
+}
+.sub-action {
+    float: right;
+    width: 30%;
+}
+.sub-heading {
+    margin: 0;
+}
+.sub-para {
+    font-style: italic;
+}

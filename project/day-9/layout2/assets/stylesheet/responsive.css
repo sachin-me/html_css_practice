@@ -1,0 +1,97 @@
+@media all and (max-width: 560px) and (min-width: 300px){
+    .outer-link {
+        padding: 0 25px;
+    }
+    .outer-div {
+        margin-top: 10px;
+        background: #85f1ec;
+    }
+    .navbar {
+        text-align: center;
+        /* float: right; */
+        /* padding: 10px; */
+        margin: 5px 0;
+        width: 100%;
+    }
+    .nav-item {
+        display: inline-block;
+        color: #000;
+        margin: 5px 0;
+        padding: 20px 0;
+        width: 100%;
+        background: #e2deb4;
+        font-size: 20px;
+    }
+    .main-section {
+        float: none;
+        width: 100%;
+    }
+    .sub-action {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 562px) {
+    .outer-div, .outer-link {
+        display: none;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 2000px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .navbar {
+        float: right;
+        margin-top: 3em;
+        /* margin-left: 21em; */
+    }
+    .para {
+        font-size: 20px;
+    }
+    .heading {
+        display: block;
+    }
+    .nav-item {
+        font-size: 20px;
+    }
+}
+
+@media all and (min-width: 2001px) and (max-width: 4000px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .para {
+        font-size: 30px;
+    }
+    .heading {
+        display: block;
+    }
+    .nav-item {
+        font-size: 25px;
+    }
+    .sub-heading {
+        font-size: 40px;
+    }
+}
+
+@media all and (min-width: 4001px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .para {
+        font-size: 55px;
+    }
+    .heading {
+        display: block;
+    }
+    .nav-item {
+        font-size: 40px;
+    }
+    .sub-heading {
+        font-size: 65px;
+    }
+}
