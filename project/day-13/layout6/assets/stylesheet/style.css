@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+/*
+    Container
+*/
+
+
+
+
+/*
+    Header
+*/
+
+.header {
+    background: #333;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    grid-template-columns: auto auto;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    grid-gap: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.logo-detail {
+    display: inline-block;
+    margin: 0;
+}
+
+/*
+    Banner
+*/
+
+.banner {
+    background-image: url(/assets/media/download.jpeg);
+    background-size: cover;
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    grid-gap: 20px;
+    grid-template-columns: 1fr auto;
+    margin-left: 20px;
+}
+
+.banner-heading {
+    font-size: 40px;
+    color: #fff;
+}
+
+.banner-description {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/*
+    main
+*/
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*
+    Thumbnails
+*/
+
+.thumbnails {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.thumbnail_item {
+    display: grid;
+    align-items: center;
+    justify-content: start;
+}
+
+.thumbnail-container {
+    display: grid;
+    position: relative;
+    align-items: end;
+}
+
+.thumbnail-title {
+    background: rgba(0,0,0,0.3);
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 20px;
+}
+
+
+/*
+    Media
+*/
+
+@media (max-width: 520px) {
+    .thumbnails {
+        grid-template-columns: 1fr;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (min-width: 521px) and (max-width: 900px) {
+    .thumbnails {
+        grid-template-columns: 1fr;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 901px) {
+    .thumbnails {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 901px) and (max-width: 1300px){
+    .thumbnails {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1300px){
+    .thumbnails {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

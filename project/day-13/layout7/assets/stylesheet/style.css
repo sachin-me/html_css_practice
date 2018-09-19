@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, img {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+/*
+    CUSTOM CSS
+*/
+
+/*
+
+    Header
+
+*/
+
+.header {
+    background: darkgrey;
+    width: 100%;
+}
+
+.header {
+    background: darkgrey;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.logo {
+    width: 60px;
+}
+
+
+/*
+    Main
+*/
+
+/* .main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} */
+
+
+/*
+    Row1
+*/
+
+.row1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr; 
+}
+
+.thumbnail-detail {
+    background: #111;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.thumbnail-detail a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.thumbnail-item {
+    display: grid;
+}
+
+.thumbnail-item-list {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+}
+
+/*
+    Row2
+*/
+
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 2fr;
+}
+
+.row2-image {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr; 
+}
+
+.thumbnail-detail {
+    height: 100%;
+}
+
+/*
+    Row3
+*/
+
+.row3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr;
+}
+
+
+@media (max-width: 720px) {
+    .row1, .row2 {
+        display: block;
+    }
+    .row3 {
+        grid-template-columns: 2fr 1fr;
+    }
+}
