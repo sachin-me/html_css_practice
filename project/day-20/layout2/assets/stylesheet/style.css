@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background: url(/assets/media/bg-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*
+    Container
+*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*
+    Header
+*/
+
+.header {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+/*
+    Row
+*/
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+}
+
+/*
+    Box
+*/
+
+.box {
+    background: rgb(190, 45, 52);
+    height: 200px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    background: linear-gradient(to right, #000, rgb(190, 45, 52));
+}
+
+.box3 {
+    background: radial-gradient(#000, rgb(190, 45, 52));
+}
+
+/*
+    Image-div
+*/
+
+.image-div {
+    padding: 30px;
+}
+
+.image {
+    background: url(/assets/media/port.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+
+
+/*
+    Media Queries
+*/
+
+@media (max-width: 900px) {
+    .row {
+        grid-template-columns: auto auto;
+    }
+    .box3 {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 520px) {
+    .row {
+        grid-template-columns: auto;
+    }
+    .box3 {
+        grid-column: span 1;
+    }
+}
