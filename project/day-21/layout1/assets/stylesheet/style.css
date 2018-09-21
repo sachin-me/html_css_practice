@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+/*
+    Navbar
+*/
+
+.navbar {
+    background: orangered;
+    height: 50px;
+    top: 0;
+    box-sizing: border-box;
+    color: #fff;
+    /* margin-top: -16px; */
+}
+
+.navbar-list {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 20px;
+    justify-items: center;
+    position: absolute;
+}
+
+li {
+    color: #fff;
+}
+
+.navbar-item {
+    list-style-type: none;
+    /* display: grid; */
+    position: relative;
+    /* grid-gap: 50px; */
+    left: 50%;
+}
+
+/*
+    Services
+*/
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box{
+    background: blue;
+    box-shadow: 10px 10px 6px rgba(0,0,0,0.2);
+    margin: 40px;
+}
+
+
+.main-item {
+    background: url(/assets/media/tick_1.png) 0 100% no-repeat;
+    list-style-type: none;
+    padding-left: 25px;
+    padding-top: 5px;
+    margin: 10px 0;
+}
+
+/*
+    Main
+*/
+
+.main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.description dt {
+    color: #333;
+}
+
+.description dd {
+    color: darkgrey;
+}
+
+/*
+    Footer
+*/
+
+footer {
+    bottom: -30px;
+}
+
+.footer{
+    background: #000;
+}
+
+.navbar-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*
+    Media Queries
+*/
+
+@media (max-width: 900px) {
+    .services {
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+    .main-box {
+        grid-column: span 2;
+    }
+}
+
+
+@media (max-width: 620px) {
+    .services {
+        display: block;
+    }
+    .box {
+        margin: 0;
+    }
+}
