@@ -43,7 +43,7 @@ nav.navbar {
 
 .nav-link {
     text-decoration: none;
-    color: #fff;
+    color: #222;
 }
 
 /*
@@ -88,6 +88,9 @@ nav.navbar {
     background: #fff;
     border-radius: 10px;
     height: 50px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .program-video {
