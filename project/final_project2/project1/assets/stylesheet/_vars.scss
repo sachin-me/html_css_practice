@@ -1,0 +1,19 @@
+$font-family: 'Lato', sans-serif;
+$primary-color: #42b574;
+$secondary-color: #84c450;
+$primary-text-color: #fff;
+$secondary-text-color: #434345;
+$font-size: 16px;
+
+%flex {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+%grid {
+	display: grid;
+	justify-content: center;
+	grid-gap: 0;
+}
