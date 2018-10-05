@@ -430,7 +430,7 @@
         display: inline-block;
         text-decoration: none;
         left: 50%;
-        padding: 20px;
+        padding: 10px;
         color: #444;
     }
 }
@@ -523,5 +523,9 @@
     }
     .contact-details:nth-child(1) {
         text-align: center;
+    }
+    //Icon
+    .footer__link {
+        padding: 10px;
     }
 }
