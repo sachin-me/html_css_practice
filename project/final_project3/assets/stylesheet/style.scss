@@ -366,3 +366,84 @@ h5{
     color: $secondary-color;
 }
 
+//=======================
+// Catalog Page
+//=======================
+
+.catalog {
+    h2 {
+        font-size: $h2;
+        font-family: 'Playfair Display', serif;
+        color: $secondary-color;
+        font-weight: 500;
+        display: inline-block; 
+    }
+}
+
+
+
+.catalog-view {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    div {
+        border: 1px solid;
+        margin: 1px;
+        padding: 1px;
+        background: $secondary-color;
+    }
+    float: right;
+    width: 1%;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.catalog-toggle {
+    div {
+        border: 1px solid;
+        height: 2px;
+        margin: 2px;
+    }
+    display: inline-block;
+    float: right;
+    width: 2%;
+    cursor: pointer;
+}
+
+.catalog-feature {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
+    img {
+        width: 100%;
+    }
+}
+.feature-info {
+    p {
+        display: inline-block;
+        color: $fifth-color;
+    }
+    h4 {
+        font-size: $h4;
+        font-family: 'Playfair Display', serif;
+        padding: 10px 0; 
+    }
+    div {
+        span {
+            color: $secondary-color;
+            font-weight: 900;
+            padding-top: 5px;
+            display: inline-block;
+        }
+        padding: 10px 0;
+    }
+    button {
+        float: right;
+        background: $sixth-color;
+        border: 1px solid $sixth-color;
+        outline: none;
+        padding: 5px 20px;
+        border-radius: 20px;
+        color: $third-color;
+    }
+}

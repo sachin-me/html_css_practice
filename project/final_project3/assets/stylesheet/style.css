@@ -731,4 +731,64 @@ h5 {
 .footer-link {
   color: #101b1b; }
 
+.catalog h2 {
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+  color: #101b1b;
+  font-weight: 500;
+  display: inline-block; }
+
+.catalog-view {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  float: right;
+  width: 1%;
+  cursor: pointer;
+  padding-left: 10px; }
+  .catalog-view div {
+    border: 1px solid;
+    margin: 1px;
+    padding: 1px;
+    background: #101b1b; }
+
+.catalog-toggle {
+  display: inline-block;
+  float: right;
+  width: 2%;
+  cursor: pointer; }
+  .catalog-toggle div {
+    border: 1px solid;
+    height: 2px;
+    margin: 2px; }
+
+.catalog-feature {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; }
+  .catalog-feature img {
+    width: 100%; }
+
+.feature-info p {
+  display: inline-block;
+  color: #4d4d4d; }
+.feature-info h4 {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  padding: 10px 0; }
+.feature-info div {
+  padding: 10px 0; }
+  .feature-info div span {
+    color: #101b1b;
+    font-weight: 900;
+    padding-top: 5px;
+    display: inline-block; }
+.feature-info button {
+  float: right;
+  background: #34b834;
+  border: 1px solid #34b834;
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: #f2f2f2; }
+
 /*# sourceMappingURL=style.css.map */
