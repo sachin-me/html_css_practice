@@ -1,0 +1,28 @@
+$font-family: 'Lato', sans-serif;
+$primary-color: #01ba01;
+$secondary-color: #101b1b;
+$third-color: #f2f2f2;
+$fourth-color: #fff;
+$fifth-color: #4d4d4d;
+$sixth-color: #34b834;
+$h1: 56px;
+$h2: 36px;
+$h3: 24px;
+$h4: 18px;
+$text: 14px;
+$header-ff: 'Playfair Display';
+$text-ff: Raleway;
+
+
+%flex {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+%grid {
+	display: grid;
+	// justify-content: center;
+	grid-gap: 0;
+}
