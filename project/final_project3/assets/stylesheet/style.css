@@ -791,4 +791,27 @@ h5 {
   border-radius: 20px;
   color: #f2f2f2; }
 
+.sevilla-about__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 20px 0; }
+  .sevilla-about__wrapper p {
+    padding: 5px 0;
+    color: #4d4d4d; }
+
+.goal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  padding: 30px 0; }
+  .goal h3 {
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    color: #101b1b;
+    padding: 10px 0; }
+  .goal p {
+    padding: 5px 0;
+    color: #4d4d4d; }
+
 /*# sourceMappingURL=style.css.map */
