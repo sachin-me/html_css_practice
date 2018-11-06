@@ -370,7 +370,7 @@ h5{
 	margin-left: 3.5em;
 }
 .padding {
-	padding: 3em 15em;
+    padding: 3em 15em;
 }
 
 .footer-link {
@@ -613,4 +613,36 @@ h5{
 }
 .btn-div {
     text-align: end;
+}
+
+//=======================
+// 404 Page
+//=======================
+
+.main-page {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    // p {
+    //     padding: 10px 0;
+    // }
+    h1 {
+        font-size: $h1;
+        padding-bottom: 20px;
+    }
+    button {
+        background: $primary-color;
+        border: 1px solid $primary-color;
+        color: $third-color;
+        border-radius: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+}
+
+.footer-404 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

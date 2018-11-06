@@ -910,4 +910,25 @@ h5 {
 .btn-div {
   text-align: end; }
 
+.main-page {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%); }
+  .main-page h1 {
+    font-size: 56px;
+    padding-bottom: 20px; }
+  .main-page button {
+    background: #01ba01;
+    border: 1px solid #01ba01;
+    color: #f2f2f2;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer; }
+
+.footer-404 {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
