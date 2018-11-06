@@ -1,6 +1,13 @@
 @import "base";
 @import "grid";
 
+body {
+    p {
+        color: $fifth-color;
+        font-size: $text;
+    }
+}
+
 // Container
 .container {
     max-width: 1200px;
@@ -403,7 +410,6 @@ h5{
         height: 2px;
         margin: 2px;
     }
-    display: inline-block;
     float: right;
     width: 2%;
     cursor: pointer;
@@ -477,5 +483,59 @@ h5{
     p {
         padding: 5px 0;
         color: $fifth-color;
+    }
+}
+
+//=======================
+// Blog Page
+//=======================
+
+.sevilla-blog {
+    h2 {
+        font-size: $h2;
+        font-family: 'Playfair Display', serif;
+        color: $secondary-color;
+        padding: 20px 0;
+    }
+    img {
+        width: 100%;
+        padding: 20px 0;
+    }
+}
+
+.sevilla-blog__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.blog-sidebar {
+    padding: 10px 0;
+    h3, h4, p {
+        padding: 10px 0;
+    }
+    h3, h4 {
+        color: $secondary-color;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 1px;
+    }
+    h3 {
+        font-size: $h3;
+    }
+    h4 {
+        font-size: $h4;
+    }
+}
+
+.news-wrapper {
+    a {
+        color: $fifth-color;
+        padding: 5px 0;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+    li {
+        padding: 5px 0;
     }
 }

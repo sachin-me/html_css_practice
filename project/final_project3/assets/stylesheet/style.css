@@ -456,6 +456,10 @@ a {
 
   .col-xl-offset-1 {
     margin-left: 8.3333333333%; } }
+body p {
+  color: #4d4d4d;
+  font-size: 14px; }
+
 .container {
   max-width: 1200px;
   width: 75%;
@@ -752,7 +756,6 @@ h5 {
     background: #101b1b; }
 
 .catalog-toggle {
-  display: inline-block;
   float: right;
   width: 2%;
   cursor: pointer; }
@@ -813,5 +816,40 @@ h5 {
   .goal p {
     padding: 5px 0;
     color: #4d4d4d; }
+
+.sevilla-blog h2 {
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+  color: #101b1b;
+  padding: 20px 0; }
+.sevilla-blog img {
+  width: 100%;
+  padding: 20px 0; }
+
+.sevilla-blog__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; }
+
+.blog-sidebar {
+  padding: 10px 0; }
+  .blog-sidebar h3, .blog-sidebar h4, .blog-sidebar p {
+    padding: 10px 0; }
+  .blog-sidebar h3, .blog-sidebar h4 {
+    color: #101b1b;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px; }
+  .blog-sidebar h3 {
+    font-size: 24px; }
+  .blog-sidebar h4 {
+    font-size: 18px; }
+
+.news-wrapper a {
+  color: #4d4d4d;
+  padding: 5px 0; }
+  .news-wrapper a:hover {
+    color: #101b1b; }
+.news-wrapper li {
+  padding: 5px 0; }
 
 /*# sourceMappingURL=style.css.map */
