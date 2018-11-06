@@ -6,6 +6,10 @@ body {
         color: $fifth-color;
         font-size: $text;
     }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Playfair Display', serif;
+        color: $secondary-color;
+    }
 }
 
 // Container
@@ -538,4 +542,75 @@ h5{
     li {
         padding: 5px 0;
     }
+}
+
+//=======================
+// Contact Page
+//=======================
+
+.contact {
+    h2 {
+        font-size: $h2;
+    }
+}
+.contact-details {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+}
+.contact__info {
+    padding: 20px 0;
+    iframe {
+        width: 100%;
+    }
+    h5, p {
+        padding: 5px 0;
+    }
+    a {
+        color: $fifth-color;
+        padding: 5px 0;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+.form-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 0;
+    grid-gap: 20px;
+    h3 {
+        font-size: $h3;
+    }
+}
+.form {
+    input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid $secondary-color;
+        padding: 5px 0;
+        outline: none;
+        margin-bottom: 5px;
+    }
+    textarea {
+        outline: none;
+        width: 100%;
+    }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.form-btn {
+    background: $primary-color;
+    border: 1px solid $primary-color;
+    color: $third-color;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-div {
+    text-align: end;
 }

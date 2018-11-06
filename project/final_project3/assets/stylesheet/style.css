@@ -459,6 +459,9 @@ a {
 body p {
   color: #4d4d4d;
   font-size: 14px; }
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: 'Playfair Display', serif;
+  color: #101b1b; }
 
 .container {
   max-width: 1200px;
@@ -851,5 +854,60 @@ h5 {
     color: #101b1b; }
 .news-wrapper li {
   padding: 5px 0; }
+
+.contact h2 {
+  font-size: 36px; }
+
+.contact-details {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px; }
+
+.contact__info {
+  padding: 20px 0; }
+  .contact__info iframe {
+    width: 100%; }
+  .contact__info h5, .contact__info p {
+    padding: 5px 0; }
+  .contact__info a {
+    color: #4d4d4d;
+    padding: 5px 0; }
+    .contact__info a:hover {
+      color: #101b1b; }
+
+.form-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 0;
+  grid-gap: 20px; }
+  .form-wrapper h3 {
+    font-size: 24px; }
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px; }
+  .form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #101b1b;
+    padding: 5px 0;
+    outline: none;
+    margin-bottom: 5px; }
+  .form textarea {
+    outline: none;
+    width: 100%; }
+
+.form-btn {
+  background: #01ba01;
+  border: 1px solid #01ba01;
+  color: #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer; }
+
+.btn-div {
+  text-align: end; }
 
 /*# sourceMappingURL=style.css.map */
